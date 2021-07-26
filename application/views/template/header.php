@@ -46,11 +46,12 @@
                 <ul>
                     <li class="active"><a href="home">Início</a></li>
                     <!--  <li><a href="#about">Sobre</a></li>  -->
-                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#solucoes">Soluções</a></li>
                     <!--  <li><a href="#portfolio">Projetos</a></li>  -->
                     <!--  <li><a href="#team">Time</a></li> -->
                     <!--  <li><a href="#pricing">Preços</a></li>  -->
-                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="contato">Contato</a></li>
+                    <li><a href="blog">Blog</a></li>
                     <li><a href="https://cloud.kronustecnologia.com.br/" target="_blank" rel="noopener noreferrer">Área do Cliente</a></li>
                 </ul>
             </nav>

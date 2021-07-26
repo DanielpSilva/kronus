@@ -1,21 +1,99 @@
-<!-- ======= Hero Section ======= -->
+<!-- ======= Home ======= -->
 <section id="hero" class="d-flex align-items-center justify-content-center">
-  <div class="container">
+  <div class="container-fluid my-auto">
     <div class="row">
-      <div class="col-lg-6 pt-4 pt-lg-0">
+      <div class="col-lg-6 pt-4 pt-lg-0 my-auto">
         <div class="container position-relative text-left">
-          <h1>Pronto para construir a sua presença na internet?</h1>
+          <h1>Pronto para mostrar o seu negócio ao mundo?</h1>
           <h2>Dê o próximo passo para o sucesso do seu projeto</h2>
-          <a href="#solucoes" class="btn-get-started scrollto">Soluções</a>
+          <a href="#solucoes" class="btn-get-started scrollto">Conhecer a Kronus</a>
         </div>
       </div>
       <div class="col-lg-6">
-        <img src="<?php echo base_url(); ?>public/assets/img/formatura.gif" class="img-fluid" alt="">
+        <img src="<?php echo base_url(); ?>public/assets/img/formatura.gif" class="img-fluid" alt="Gif tela inicial Kronus">
       </div>
     </div>
   </div>
-</section><!-- End Hero -->
+</section>
+<!-- Home -->
+<!-- ======= Soluções Section ======= -->
+<section id="solucoes" class="pricing">
+  <div class="container">
+    <div class="section-title">
+      <h2>Soluções</h2>
+    </div>
 
+    <div class="row">
+
+      <div class="col-lg-3 col-md-6">
+        <div class="box portfolio">
+          <h3>Portifólio</h3>
+          <!-- <h4><sup>$</sup>0<span> / month</span></h4> -->
+          <ul>
+            <li>Aida dere</li>
+            <li>Nec feugiat nisl</li>
+            <li>Nulla at volutpat dola</li>
+            <li class="na">Pharetra massa</li>
+            <li class="na">Massa ultricies mi</li>
+          </ul>
+          <div class="btn-wrap">
+            <a href="#" class="btn-buy">Orçamento Personalizado</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+        <div class="box featured">
+          <h3>E-commerce</h3>
+          <ul>
+            <li>Aida dere</li>
+            <li>Nec feugiat nisl</li>
+            <li>Nulla at volutpat dola</li>
+            <li>Pharetra massa</li>
+            <li class="na">Massa ultricies mi</li>
+          </ul>
+          <div class="btn-wrap">
+            <a href="#" class="btn-buy">Orçamento Personalizado</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+        <div class="box institucional">
+          <h3>Site institucional</h3>
+          <ul>
+            <li>Aida dere</li>
+            <li>Nec feugiat nisl</li>
+            <li>Nulla at volutpat dola</li>
+            <li>Pharetra massa</li>
+            <li>Massa ultricies mi</li>
+          </ul>
+          <div class="btn-wrap">
+            <a href="#" class="btn-buy">Orçamento Personalizado</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+        <div class="box landing-page">
+          <h3>Landing Page</h3>
+          <ul>
+            <li>Aida dere</li>
+            <li>Nec feugiat nisl</li>
+            <li>Nulla at volutpat dola</li>
+            <li>Pharetra massa</li>
+            <li>Massa ultricies mi</li>
+          </ul>
+          <div class="btn-wrap">
+            <a href="#" class="btn-buy">Orçamento Personalizado</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Pricing Section -->
 <main id="main">
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
@@ -48,86 +126,7 @@
 
     </div>
   </section><!-- End About Section -->
-  <!-- ======= Pricing Section ======= -->
-  <section id="pricing" class="pricing">
-    <div class="container">
 
-      <div class="section-title">
-        <h2>Soluções que farão seu negócio ou marca decolar!</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6">
-          <div class="box portfolio">
-            <h3>Portifólio</h3>
-            <!-- <h4><sup>$</sup>0<span> / month</span></h4> -->
-            <ul>
-              <li>Aida dere</li>
-              <li>Nec feugiat nisl</li>
-              <li>Nulla at volutpat dola</li>
-              <li class="na">Pharetra massa</li>
-              <li class="na">Massa ultricies mi</li>
-            </ul>
-            <div class="btn-wrap">
-              <a href="#" class="btn-buy">Orçamento Personalizado</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-          <div class="box featured">
-            <h3>E-commerce</h3>
-            <ul>
-              <li>Aida dere</li>
-              <li>Nec feugiat nisl</li>
-              <li>Nulla at volutpat dola</li>
-              <li>Pharetra massa</li>
-              <li class="na">Massa ultricies mi</li>
-            </ul>
-            <div class="btn-wrap">
-              <a href="#" class="btn-buy">Orçamento Personalizado</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-          <div class="box institucional">
-            <h3>Site institucional</h3>
-            <ul>
-              <li>Aida dere</li>
-              <li>Nec feugiat nisl</li>
-              <li>Nulla at volutpat dola</li>
-              <li>Pharetra massa</li>
-              <li>Massa ultricies mi</li>
-            </ul>
-            <div class="btn-wrap">
-              <a href="#" class="btn-buy">Orçamento Personalizado</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-          <div class="box landing-page">
-            <h3>Landing Page</h3>
-            <ul>
-              <li>Aida dere</li>
-              <li>Nec feugiat nisl</li>
-              <li>Nulla at volutpat dola</li>
-              <li>Pharetra massa</li>
-              <li>Massa ultricies mi</li>
-            </ul>
-            <div class="btn-wrap">
-              <a href="#" class="btn-buy">Orçamento Personalizado</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Pricing Section -->
 
 
   <!-- ======= Counts Section ======= -->

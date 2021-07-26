@@ -35,7 +35,7 @@ h6 {
     position: fixed;
     display: none;
     right: 15px;
-    bottom: 15px;
+    bottom: 40px;
     z-index: 99999;
 }
 
@@ -133,6 +133,7 @@ h6 {
     transition: 0.3s;
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
 }
 
 .nav-menu a:hover,
@@ -391,7 +392,8 @@ h6 {
     font-size: 38px;
     font-weight: 700;
     line-height: 56px;
-    color: #414c64;
+    color: #082735;
+    text-transform: uppercase;
 }
 
 #hero h2 {
@@ -407,7 +409,7 @@ h6 {
     letter-spacing: 1px;
     display: inline-block;
     padding: 9px 35px;
-    border-radius: 50px;
+    border-radius: 25px;
     transition: 0.5s;
     margin-top: 40px;
     border: 2px solid #082735;
@@ -458,12 +460,13 @@ section {
 }
 
 .section-title h2 {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #414c64;
+    color: #082735;
+    text-transform: uppercase;
 }
 
 .section-title h2::after {
@@ -586,24 +589,25 @@ section {
 .about h3 {
     font-weight: 700;
     font-size: 34px;
-    color: #414c64;
+    color: #fff;
 }
 
 .about h4 {
     font-size: 20px;
     font-weight: 700;
     margin-top: 5px;
+    color: #fff;
 }
 
 .about i {
     font-size: 48px;
     margin-top: 15px;
-    color: #8b97b3;
+    color: #fff;
 }
 
 .about p {
     font-size: 15px;
-    color: #848484;
+    color: #fff;
 }
 
 
@@ -630,140 +634,14 @@ section {
 
 
 /*--------------------------------------------------------------
-# solucoes
---------------------------------------------------------------*/
-
-.solucoes .icon-box {
-    text-align: center;
-    padding: 70px 20px 80px 20px;
-    transition: all ease-in-out 0.3s;
-    background: #fff;
-    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
-}
-
-.solucoes .icon-box .icon {
-    margin: 0 auto;
-    width: 64px;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: ease-in-out 0.3s;
-    position: relative;
-    background: #f5f5f5;
-    border-radius: 50px;
-}
-
-.solucoes .icon-box .icon i {
-    font-size: 32px;
-    transition: 0.5s;
-    line-height: 1;
-    position: relative;
-}
-
-.solucoes .icon-box h4 {
-    font-weight: 600;
-    margin: 10px 0 15px 0;
-    font-size: 22px;
-}
-
-.solucoes .icon-box h4 a {
-    color: #414c64;
-    transition: ease-in-out 0.3s;
-}
-
-.solucoes .icon-box p {
-    line-height: 24px;
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-.solucoes .icon-box:hover {
-    border-color: #fff;
-    box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
-}
-
-.solucoes .iconbox-blue i {
-    color: #47aeff;
-}
-
-.solucoes .iconbox-blue:hover .icon {
-    background: #47aeff;
-}
-
-.solucoes .iconbox-blue:hover .icon i {
-    color: #fff;
-}
-
-.solucoes .iconbox-orange i {
-    color: #ffa76e;
-}
-
-.solucoes .iconbox-orange:hover .icon {
-    background: #ffa76e;
-}
-
-.solucoes .iconbox-orange:hover .icon i {
-    color: #fff;
-}
-
-.solucoes .iconbox-pink i {
-    color: #e80368;
-}
-
-.solucoes .iconbox-pink:hover .icon {
-    background: #e80368;
-}
-
-.solucoes .iconbox-pink:hover .icon i {
-    color: #fff;
-}
-
-.solucoes .iconbox-yellow i {
-    color: #ffbb2c;
-}
-
-.solucoes .iconbox-yellow:hover .icon {
-    background: #ffbb2c;
-}
-
-.solucoes .iconbox-yellow:hover .icon i {
-    color: #fff;
-}
-
-.solucoes .iconbox-red i {
-    color: #ff5828;
-}
-
-.solucoes .iconbox-red:hover .icon {
-    background: #ff5828;
-}
-
-.solucoes .iconbox-red:hover .icon i {
-    color: #fff;
-}
-
-.solucoes .iconbox-teal i {
-    color: #11dbcf;
-}
-
-.solucoes .iconbox-teal:hover .icon {
-    background: #11dbcf;
-}
-
-.solucoes .iconbox-teal:hover .icon i {
-    color: #fff;
-}
-
-
-/*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 
 .cta {
-    background: #105981;
+    background: #082735;
     background-size: cover;
     padding: 60px 0;
+    display: none;
 }
 
 .cta h3 {
@@ -1060,6 +938,36 @@ section {
 
 
 /*--------------------------------------------------------------
+# Soluções
+--------------------------------------------------------------*/
+
+#solucoes {
+    background: #082735;
+}
+
+#solucoes h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#solucoes h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #fff;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+
+/*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
 
@@ -1068,7 +976,7 @@ section {
     background: #fff;
     text-align: center;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-    border-radius: 5px;
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
@@ -1153,8 +1061,7 @@ section {
 }
 
 .pricing .featured h3 {
-    color: #fff;
-    background: #082735;
+    color: #082735;
 }
 
 .pricing .featured .btn-buy {
@@ -1178,90 +1085,6 @@ section {
     padding: 1px 0 3px 0;
     background: #082735;
     color: #fff;
-}
-
-
-/*--------------------------------------------------------------
-# Frequently Asked Questions
---------------------------------------------------------------*/
-
-.faq .faq-list {
-    padding: 0 100px;
-}
-
-.faq .faq-list ul {
-    padding: 0;
-    list-style: none;
-}
-
-.faq .faq-list li+li {
-    margin-top: 15px;
-}
-
-.faq .faq-list li {
-    padding: 20px;
-    background: #fff;
-    border-radius: 4px;
-    position: relative;
-}
-
-.faq .faq-list a {
-    display: block;
-    position: relative;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-    padding: 0 30px;
-    outline: none;
-}
-
-.faq .faq-list .icon-help {
-    font-size: 24px;
-    position: absolute;
-    right: 0;
-    left: 20px;
-    color: #ffce3a;
-}
-
-.faq .faq-list .icon-show,
-.faq .faq-list .icon-close {
-    font-size: 24px;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.faq .faq-list p {
-    margin-bottom: 0;
-    padding: 10px 0 0 0;
-}
-
-.faq .faq-list .icon-show {
-    display: none;
-}
-
-.faq .faq-list a.collapsed {
-    color: #343a40;
-    transition: 0.3s;
-}
-
-.faq .faq-list a.collapsed:hover {
-    color: #ffc107;
-}
-
-.faq .faq-list a.collapsed .icon-show {
-    display: inline-block;
-}
-
-.faq .faq-list a.collapsed .icon-close {
-    display: none;
-}
-
-@media (max-width: 1200px) {
-    .faq .faq-list {
-        padding: 0;
-    }
 }
 
 
@@ -1406,83 +1229,18 @@ section {
 
 
 /*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-
-.portfolio-details {
-    padding: 40px 0;
-}
-
-.portfolio-details .portfolio-title {
-    font-size: 26px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-nav,
-.portfolio-details .portfolio-details-carousel .owl-dots {
-    margin-top: 5px;
-    text-align: center;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-dot {
-    display: inline-block;
-    margin: 0 5px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #ddd !important;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
-    background-color: #082735 !important;
-}
-
-.portfolio-details .portfolio-info {
-    padding-top: 45px;
-}
-
-.portfolio-details .portfolio-info h3 {
-    font-size: 22px;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-info ul {
-    list-style: none;
-    padding: 0;
-    font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li+li {
-    margin-top: 10px;
-}
-
-.portfolio-details .portfolio-info p {
-    font-size: 15px;
-    padding: 15px 0 0 0;
-}
-
-@media (max-width: 992px) {
-    .portfolio-details .portfolio-info {
-        padding-top: 20px;
-    }
-}
-
-
-/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
 #footer {
     color: #fff;
     font-size: 14px;
-    background: #105981;
+    background: #082735;
 }
 
 #footer .footer-top {
     padding: 60px 0 30px 0;
-    background: #105981;
+    background: #082735;
 }
 
 #footer .footer-top .footer-contact {
@@ -1549,7 +1307,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
-    color: #082735;
+    color: #105981;
 }
 
 #footer .credits {
@@ -1576,4 +1334,32 @@ section {
     background: #082735;
     color: #CCCCCC;
     text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------
+# float whatsapp
+--------------------------------------------------------------*/
+
+.float {
+    left: 15px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 20px;
+    z-index: 999999;
+}
+
+.float:hover {
+    color: #FFF;
+}
+
+.my-float {
+    margin-top: 10px;
+    font-size: 30px;
 }
