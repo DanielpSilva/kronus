@@ -1,16 +1,18 @@
 <!-- ======= Home ======= -->
 <section id="hero" class="d-flex align-items-center justify-content-center">
   <div class="container-fluid my-auto">
-    <div class="row">
+    <div class="row row-hero">
       <div class="col-lg-6 pt-4 pt-lg-0 my-auto">
         <div class="container position-relative text-left">
           <h1>Pronto para mostrar o seu negócio ao mundo?</h1>
           <h2>Dê o próximo passo para o sucesso do seu projeto</h2>
-          <a href="#solucoes" class="btn-get-started scrollto">Conhecer a Kronus</a>
+          <div class="btn-hero">
+            <a href="#solucoes" class="btn-get-started scrollto">Conhecer a Kronus</a>
+          </div>
         </div>
       </div>
       <div class="col-lg-6">
-        <img src="<?php echo base_url(); ?>public/assets/img/formatura.gif" class="img-fluid" alt="Gif tela inicial Kronus">
+        <img src="<?php echo base_url(); ?>public/assets/img/gif/web-design.gif" class="img-fluid" alt="Gif tela inicial Kronus"></img>
       </div>
     </div>
   </div>
@@ -29,13 +31,9 @@
         <div class="box portfolio">
           <h3>Portifólio</h3>
           <!-- <h4><sup>$</sup>0<span> / month</span></h4> -->
-          <ul>
-            <li>Aida dere</li>
-            <li>Nec feugiat nisl</li>
-            <li>Nulla at volutpat dola</li>
-            <li class="na">Pharetra massa</li>
-            <li class="na">Massa ultricies mi</li>
-          </ul>
+          <p class="text-justify">
+            Mostre seus projetos e suas criações em um site só seu e tenha maiores resultados nas negociações com possiveis clientes
+          </p>
           <div class="btn-wrap">
             <a href="#" class="btn-buy">Orçamento Personalizado</a>
           </div>
@@ -45,13 +43,9 @@
       <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
         <div class="box featured">
           <h3>E-commerce</h3>
-          <ul>
-            <li>Aida dere</li>
-            <li>Nec feugiat nisl</li>
-            <li>Nulla at volutpat dola</li>
-            <li>Pharetra massa</li>
-            <li class="na">Massa ultricies mi</li>
-          </ul>
+          <p class="text-justify">
+            Afim de alavancar suas vendas de seu produto físico ou digital? Tenha seu próprio e-commerce e entreque você mesmo seu produto
+          </p>
           <div class="btn-wrap">
             <a href="#" class="btn-buy">Orçamento Personalizado</a>
           </div>
@@ -61,13 +55,9 @@
       <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
         <div class="box institucional">
           <h3>Site institucional</h3>
-          <ul>
-            <li>Aida dere</li>
-            <li>Nec feugiat nisl</li>
-            <li>Nulla at volutpat dola</li>
-            <li>Pharetra massa</li>
-            <li>Massa ultricies mi</li>
-          </ul>
+          <p class="text-justify">
+            Monstre a sua empresa ao mundo, um site institucional é perfeito para você que deseja criar a presença online da sua empresa
+          </p>
           <div class="btn-wrap">
             <a href="#" class="btn-buy">Orçamento Personalizado</a>
           </div>
@@ -77,21 +67,15 @@
       <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
         <div class="box landing-page">
           <h3>Landing Page</h3>
-          <ul>
-            <li>Aida dere</li>
-            <li>Nec feugiat nisl</li>
-            <li>Nulla at volutpat dola</li>
-            <li>Pharetra massa</li>
-            <li>Massa ultricies mi</li>
-          </ul>
+         <p class="text-justify">
+           Imagina um site com o único objetivo, gerar vendas ou conversões? ter uma landing page com certeza aumentará a sua chances de vender
+         </p>
           <div class="btn-wrap">
             <a href="#" class="btn-buy">Orçamento Personalizado</a>
           </div>
         </div>
       </div>
-
     </div>
-
   </div>
 </section><!-- End Pricing Section -->
 <main id="main">

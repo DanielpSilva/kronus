@@ -376,14 +376,34 @@ h6 {
     right: 0;
 }
 
-#hero .container {
+#hero .container-fluid {
     text-align: center;
     padding-top: 50px;
 }
 
 @media (max-width: 992px) {
-    #hero .container {
+    #hero .container-fluid {
         padding-top: 0;
+    }
+    #hero h1 {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 50px;
+    }
+    #hero h2 {
+        text-align: center;
+    }
+    #hero a {
+        text-align: center;
+    }
+    .row-hero {
+        align-content: center;
+        position: relative;
+    }
+    .btn-hero {
+        text-align: center;
+        padding: auto;
+        margin-bottom: 50px;
     }
 }
 

@@ -8,22 +8,22 @@
         <div class="col-lg-3 col-md-6 footer-contact">
           <h3>kronus</h3>
           <p>
-            A108 Adam Street <br>
-            New York, NY 535022<br>
-            United States <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
+            Caraguatatuba <br>
+            São Paulo<br>
+            Brasil <br><br>
+            <strong>Telefone:</strong> +55 12 99607 - 2735<br>
+            <strong>Email:</strong> atendimento@kronustecnologia.com.br<br>
           </p>
         </div>
 
         <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Links</h4>
           <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">ínicio</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Sobre-nós</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Serviços</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Termos de Serviços</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Política de Privacidade</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="home">ínicio</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="sobre">Sobre-nós</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#solucoes">Serviços</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="termos">Termos de Serviços</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="privacidade">Política de Privacidade</a></li>
           </ul>
         </div>
 
@@ -32,9 +32,9 @@
           <ul>
             <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">Consultoria</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Project Management</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Design</a></li>
           </ul>
         </div>
 
@@ -57,7 +57,7 @@
       <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
     </div>
   </div>
-</footer><!-- End Footer -->
+</footer>
 
 <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
 <a href="https://api.whatsapp.com/send?phone=5512996536204&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vim%20pelo%20seu%20portf%C3%B3lio!%20" class="float" target="_blank">
