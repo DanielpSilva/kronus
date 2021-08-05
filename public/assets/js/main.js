@@ -190,4 +190,7 @@
         items: 1
     });
 
+    // Slick Slider
+
+
 })(jQuery);

@@ -37,7 +37,11 @@
     <link href="<?php echo base_url(); ?>public/assets/vendor/venobox/venobox.css" rel="stylesheet">
     <!-- Style -->
     <link href="<?php echo base_url(); ?>public/assets/css/style.css" rel="stylesheet">
+    <!-- Slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
+
 <body>
     <header id="header" class="fixed-top header-transparent">
         <div class="container d-flex align-items-center">
@@ -46,7 +50,7 @@
                 <ul>
                     <li class="active"><a href="home">Início</a></li>
                     <!--  <li><a href="#about">Sobre</a></li>  -->
-                    <li><a href="#solucoes">Soluções</a></li>
+                    <li><a href="#"></a></li>
                     <!--  <li><a href="#portfolio">Projetos</a></li>  -->
                     <!--  <li><a href="#team">Time</a></li> -->
                     <!--  <li><a href="#pricing">Preços</a></li>  -->

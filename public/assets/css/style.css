@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Helvetica", sans-serif;
     color: #444444;
 }
 
@@ -24,6 +24,10 @@ h4,
 h5,
 h6 {
     font-family: Titulo;
+}
+
+.container-fluid {
+    width: 80vw;
 }
 
 
@@ -365,6 +369,7 @@ h6 {
     height: 90vh;
     background-size: cover;
     position: relative;
+    align-items: center;
 }
 
 #hero:before {
@@ -383,7 +388,7 @@ h6 {
 
 @media (max-width: 992px) {
     #hero .container-fluid {
-        padding-top: 0;
+        padding-top: 100px;
     }
     #hero h1 {
         text-align: center;
@@ -399,11 +404,15 @@ h6 {
     .row-hero {
         align-content: center;
         position: relative;
+        position: center;
     }
     .btn-hero {
         text-align: center;
         padding: auto;
         margin-bottom: 50px;
+    }
+    .gif-hero {
+        display: none;
     }
 }
 
@@ -420,6 +429,7 @@ h6 {
     color: #414c64;
     margin: 15px 0 0 0;
     font-size: 22px;
+    font-family: 'Helvetica';
 }
 
 #hero .btn-get-started {
@@ -570,87 +580,41 @@ section {
 
 
 /*--------------------------------------------------------------
-# Clients
+# About Serviços
 --------------------------------------------------------------*/
 
-.clients {
-    padding: 15px 0;
-    text-align: center;
-}
-
-.clients img {
-    max-width: 45%;
-    transition: all 0.4s ease-in-out;
-    display: inline-block;
-    padding: 15px 0;
-    filter: grayscale(100);
-}
-
-.clients img:hover {
-    filter: none;
-    transform: scale(1.15);
-}
-
-@media (max-width: 768px) {
-    .clients img {
-        max-width: 40%;
-    }
-}
-
-
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
-
-.about {
+.about-servicos {
     background-color: #082735;
 }
 
-.about h3 {
+.about-servicos h3 {
     font-weight: 700;
     font-size: 34px;
     color: #fff;
 }
 
-.about h4 {
+.about-servicos h4 {
     font-size: 20px;
     font-weight: 700;
     margin-top: 5px;
     color: #fff;
 }
 
-.about i {
+.about-servicos i {
     font-size: 48px;
     margin-top: 15px;
     color: #fff;
 }
 
-.about p {
+.about-servicos p {
     font-size: 15px;
     color: #fff;
 }
 
 
 /*--------------------------------------------------------------
-# Counts
+# Resumo
 --------------------------------------------------------------*/
-
-.counts {
-    padding: 40px 0;
-}
-
-.counts .counters span {
-    font-size: 48px;
-    display: block;
-    color: #414c64;
-}
-
-.counts .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-}
 
 
 /*--------------------------------------------------------------
@@ -661,7 +625,6 @@ section {
     background: #082735;
     background-size: cover;
     padding: 60px 0;
-    display: none;
 }
 
 .cta h3 {
@@ -690,6 +653,15 @@ section {
 
 .cta .cta-btn:hover {
     background: #082735;
+}
+
+
+/*--------------------------------------------------------------
+# Resumo do blog
+--------------------------------------------------------------*/
+
+.resumo-blog .container {
+    text-align: center;
 }
 
 
@@ -781,106 +753,6 @@ section {
 
 
 /*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
-
-.portfolio #portfolio-flters {
-    padding: 0;
-    margin: 0 auto 25px auto;
-    list-style: none;
-    text-align: center;
-    border-radius: 50px;
-}
-
-.portfolio #portfolio-flters li {
-    cursor: pointer;
-    display: inline-block;
-    padding: 8px 18px 10px 18px;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1;
-    color: #082735;
-    margin: 0 3px 10px 3px;
-    transition: all ease-in-out 0.3s;
-    background: #fafafc;
-    border-radius: 50px;
-}
-
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-    color: #fff;
-    background: #082735;
-}
-
-.portfolio #portfolio-flters li:last-child {
-    margin-right: 0;
-}
-
-.portfolio .portfolio-item {
-    margin-bottom: 30px;
-    overflow: hidden;
-}
-
-.portfolio .portfolio-item img {
-    position: relative;
-    top: 0;
-    transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-.portfolio .portfolio-item .portfolio-info {
-    opacity: 0;
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: -50px;
-    z-index: 3;
-    transition: all ease-in-out 0.3s;
-    background: #ffc107;
-    padding: 15px 20px;
-}
-
-.portfolio .portfolio-item .portfolio-info h4 {
-    font-size: 18px;
-    color: #fff;
-    font-weight: 600;
-}
-
-.portfolio .portfolio-item .portfolio-info p {
-    color: #fff;
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-.portfolio .portfolio-item .portfolio-info .preview-link,
-.portfolio .portfolio-item .portfolio-info .details-link {
-    position: absolute;
-    right: 50px;
-    font-size: 24px;
-    top: calc(50% - 18px);
-    color: rgba(255, 255, 255, 0.7);
-    transition: ease-in-out 0.3s;
-}
-
-.portfolio .portfolio-item .portfolio-info .preview-link:hover,
-.portfolio .portfolio-item .portfolio-info .details-link:hover {
-    color: #fff;
-}
-
-.portfolio .portfolio-item .portfolio-info .details-link {
-    right: 15px;
-}
-
-.portfolio .portfolio-item:hover img {
-    top: -30px;
-}
-
-.portfolio .portfolio-item:hover .portfolio-info {
-    opacity: 1;
-    bottom: 0;
-}
-
-
-/*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 
@@ -961,11 +833,11 @@ section {
 # Soluções
 --------------------------------------------------------------*/
 
-#solucoes {
+#servicos {
     background: #082735;
 }
 
-#solucoes h2 {
+#servicos h2 {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -975,7 +847,7 @@ section {
     text-transform: uppercase;
 }
 
-#solucoes h2::after {
+#servicos h2::after {
     content: '';
     position: absolute;
     display: block;
@@ -986,22 +858,46 @@ section {
     left: calc(50% - 25px);
 }
 
+#svg-inicio {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+#svg-about {
+    position: absolute;
+}
+
+.cls-1 {
+    fill: #082735;
+    stroke: #082735;
+    stroke-miterlimit: 10;
+}
+
+.cls-2 {
+    fill: #fff;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+}
+
 
 /*--------------------------------------------------------------
-# Pricing
+# Serviços
 --------------------------------------------------------------*/
 
-.pricing .box {
+.servicos .box {
     padding: 20px;
     background: #fff;
     text-align: center;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-    border-radius: 10px;
+    height: 400px;
+    box-shadow: 0px 0px 4px rgba(170, 169, 169, 0.12);
+    border-radius: 5px;
     position: relative;
     overflow: hidden;
 }
 
-.pricing h3 {
+.servicos h3 {
     font-weight: 400;
     margin: -20px -20px 20px -20px;
     padding: 20px 15px;
@@ -1011,7 +907,7 @@ section {
     background: #f8f8f8;
 }
 
-.pricing h4 {
+.servicos h4 {
     font-size: 36px;
     color: #ffc107;
     font-weight: 600;
@@ -1019,19 +915,19 @@ section {
     margin-bottom: 20px;
 }
 
-.pricing h4 sup {
+.servicos h4 sup {
     font-size: 20px;
     top: -15px;
     left: -3px;
 }
 
-.pricing h4 span {
+.servicos h4 span {
     color: #bababa;
     font-size: 16px;
     font-weight: 300;
 }
 
-.pricing ul {
+.servicos ul {
     padding: 0;
     list-style: none;
     color: #444444;
@@ -1040,29 +936,29 @@ section {
     font-size: 14px;
 }
 
-.pricing ul li {
+.servicos ul li {
     padding-bottom: 16px;
 }
 
-.pricing ul i {
+.servicos ul i {
     color: #ffc107;
     font-size: 18px;
     padding-right: 4px;
 }
 
-.pricing ul .na {
+.servicos ul .na {
     color: #ccc;
     text-decoration: line-through;
 }
 
-.pricing .btn-wrap {
+.servicos .btn-wrap {
     margin: 20px -20px -20px -20px;
     padding: 20px 15px;
     background: #f8f8f8;
     text-align: center;
 }
 
-.pricing .btn-buy {
+.servicos .btn-buy {
     display: inline-block;
     padding: 10px 35px;
     border-radius: 4px;
@@ -1076,25 +972,25 @@ section {
     color: #6c7c9f;
 }
 
-.pricing .btn-buy:hover {
+.servicos .btn-buy:hover {
     background: #fff;
 }
 
-.pricing .featured h3 {
+.servicos .featured h3 {
     color: #082735;
 }
 
-.pricing .featured .btn-buy {
+.servicos .featured .btn-buy {
     background: #082735;
     color: #fff;
     border: 2px solid #082735;
 }
 
-.pricing .featured .btn-buy:hover {
+.servicos .featured .btn-buy:hover {
     background: #123444;
 }
 
-.pricing .advanced {
+.servicos .advanced {
     width: 200px;
     position: absolute;
     top: 18px;

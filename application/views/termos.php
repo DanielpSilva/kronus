@@ -1,3 +1,4 @@
+<div class="container" style="margin-top: 100px;">
 <h2>1. Termos</h2>
 <p>Ao acessar ao site <a href='https://kronustecnologia.com.br/'>Kronus Tecnologia</a>, concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis ​​e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis.</p>
 <h2>2. Uso de Licença</h2>
@@ -26,3 +27,4 @@
 <p>O Kronus Tecnologia pode revisar estes termos de serviço do site a qualquer momento, sem aviso prévio. Ao usar este site, você concorda em ficar vinculado à versão atual desses termos de serviço.</p>
 <h3>Lei aplicável</h3>
 <p>Estes termos e condições são regidos e interpretados de acordo com as leis do Kronus Tecnologia e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais naquele estado ou localidade.</p>
+</div>
