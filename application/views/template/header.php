@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Desenvolvimento de Sites, Aplicações Mobile e Sistemas - Kronus Tecnologia</title>
+    <title>Kronus Tecnologia - Desenvolvimento de Sites, Aplicações Mobile e Sistemas</title>
     <meta name="description" content="Localizada em Caraguatatuba - SP, a Kronus Tecnologia é especializada em desenvolvimento de sites e sistemas. Encontramos a solução ideal o seu negócio buscando soluções em marketing digital ideais para aumentar as suas vendas.">
     <meta content="" name="keywords">
 
@@ -38,8 +38,8 @@
     <!-- Style -->
     <link href="<?php echo base_url(); ?>public/assets/css/style.css" rel="stylesheet">
     <!-- Slick -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -49,8 +49,15 @@
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="home">Início</a></li>
-                    <!--  <li><a href="#about">Sobre</a></li>  -->
-                    <li><a href="#"></a></li>
+                    <li><a href="sobre">Sobre</a></li>
+                    <li class="drop-down"><a href="servicos">Serviços</a>
+                        <ul>
+                            <li><a href="websites">Criação de Sites</a></li>
+                            <li><a href="grs">Gestão de Redes Sociais</a></li>
+                            <li><a href="ecommerce">E-commerce</a></li>
+                            <li><a href="criacaomarca">Criaçao de Marca</a></li>
+                        </ul>
+                    </li>
                     <!--  <li><a href="#portfolio">Projetos</a></li>  -->
                     <!--  <li><a href="#team">Time</a></li> -->
                     <!--  <li><a href="#pricing">Preços</a></li>  -->
