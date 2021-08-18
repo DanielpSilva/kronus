@@ -42,7 +42,8 @@
             <h3>E-commerce</h3>
             <h1><i class='bx bx-cart-alt'></i></h1>
             <p class="text-justify">
-              Afim de alavancar suas vendas de seu produto físico ou digital? Tenha seu próprio e-commerce e entreque você mesmo seu produto
+              Aqui nós criamos uma loja online sob medida para o seu negócio, focado em vender o seu produto seja ele digital ou físico,
+              dê a seus clientes uma experiência única, com um design intuitivo, focado em gerar venda
             </p>
           </div>
         </div>
@@ -82,7 +83,7 @@
           <h4>
             Nosso maior foco é fazer o seu negócio decolar, obtendo resultados em alta performance
           </h4>
-      
+
           <div class="row">
             <div class="col-md-6">
               <i class="bx bx-receipt"></i>
