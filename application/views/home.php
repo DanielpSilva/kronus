@@ -4,7 +4,7 @@
     <div class="row row-hero mx-auto">
       <div class="col-12 col-lg-6 pt-4 pt-lg-0 my-auto">
         <div class="container position-relative text-left">
-          <h1>Inovação movida por resultados</h1>
+          <h1>Inovação movida por <span style="color: #1111;">resultados</span> </h1>
           <h2>Dê o próximo passo para o sucesso do seu projeto</h2>
           <div class="btn-hero">
             <a href="#servicos" class="btn-get-started scrollto">Conhecer a Kronus</a>
@@ -17,7 +17,7 @@
     </div>
   </div>
   <svg id="svg-inicio" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1417.98 194.15">
-    <path class="cls-1" d="M-147.66,266.6q1.46-96.56,2.9-193.11L1546.94,180.2q.86,36,1.72,72Z" transform="translate(100 30)" />
+    <path class="cls-1" d="M-273.53,318Q-277,187.3-280.66,56.61q958.47,34.22,1917.06,68.3c2,32.4,3.93,64.92,5.78,97.33Q684.45,270.27-273.53,318Z" transform="translate(0)" />
   </svg>
 </section>
 <!-- Serviços -->
@@ -33,7 +33,8 @@
             <h3>Criação de Sites</h3>
             <h1><i class='bx bx-pointer'></i></h1>
             <p class="text-justify">
-
+              O digital é o futuro, aliás, é o nosso presente saia do convencional destaque-se da concorrência,
+              tenha um site feito para trazer clientes e credibilidade para sua empresa integralmente, com segurança e rapidez
             </p>
           </div>
         </div>
@@ -42,17 +43,17 @@
             <h3>E-commerce</h3>
             <h1><i class='bx bx-cart-alt'></i></h1>
             <p class="text-justify">
-              Aqui nós criamos uma loja online sob medida para o seu negócio, focado em vender o seu produto seja ele digital ou físico,
+              Aqui nós criamos uma loja online sob medida para sua empresa, focada em vender o seu produto seja ele digital ou físico,
               dê a seus clientes uma experiência única, com um design intuitivo, focado em gerar venda
             </p>
           </div>
         </div>
         <div class="col-md-12">
           <div class="box landing-page">
-            <h3>Criação de Marca</h3>
+            <h3>Google Adwords</h3>
             <h1><i class='bx bx-left-indent'></i></h1>
             <p class="text-justify">
-              Imagina um site com o único objetivo, gerar vendas ou conversões? ter uma landing page com certeza aumentará a sua chances de vender
+              Apareca nos resultados das buscas do google para quem está realmente interessado no seu produto e serviço, aumentando o resultado e otimizando o investimento.
             </p>
           </div>
         </div>
@@ -61,7 +62,7 @@
             <h3>Gestão de Redes Sociais</h3>
             <h1><i class='bx bxl-instagram-alt'></i></h1>
             <p class="text-justify mx-auto">
-              Mostre seus projetos e suas criações em um site só seu e tenha maiores resultados nas negociações com possiveis clientes
+              Esteja nas redes sociais para gerar resultados para sua empresa, passando valor e se conectando com seus clientes, por meio de estratégias de marketing e criação de conteúdo
             </p>
             <!--  <div class="btn-wrap">
               <a href="#" class="btn-buy">Orçamento Personalizado</a>
@@ -84,17 +85,7 @@
             Nosso maior foco é fazer o seu negócio decolar, obtendo resultados em alta performance
           </h4>
 
-          <div class="row">
-            <div class="col-md-6">
-              <i class="bx bx-receipt"></i>
-              <h4>Esteja presente</h4>
-              <p>Tenha o seu negócio aberto 24h, acessível de qualquer lugar do mundo.</p>
-            </div>
-            <div class="col-md-6">
-              <i class="bx bx-cube-alt"></i>
-              <h4>Seja encontrado</h4>
-              <p>Esteja no topo nas pesquisas do Google</p>
-            </div>
+          
           </div>
         </div>
       </div>

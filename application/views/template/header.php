@@ -49,7 +49,7 @@
     <header id="header" class="fixed-top header-transparent">
         <div class="container d-flex align-items-center">
             <a href="index.html" class="logo mr-auto"><img src="<?php echo base_url(); ?>public/assets/img/kronus.png" alt="Logo Kronus" class="img-fluid"></a>
-            <nav class="nav-menu d-none d-lg-block">
+            <nav class="nav-menu d-none d-lg-block justify-content-center">
                 <ul>
                     <li class="active"><a href="home">Início</a></li>
                     <li><a href="sobre">Sobre</a></li>
