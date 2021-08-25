@@ -363,16 +363,15 @@ h6 {
 --------------------------------------------------------------*/
 
 #hero {
-    width: 100%;
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    align-items: center;
-    margin-top: 100px;
-    min-height: 70vh;
+    height: 100vh;
 }
 
 #hero:before {
     content: "";
+    background: rgba(80, 90, 95, 0.7);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -380,9 +379,9 @@ h6 {
     right: 0;
 }
 
-#hero .container-fluid {
+#hero .container .row {
     text-align: center;
-    padding-top: 50px;
+    margin-top: 70px;
 }
 
 @media (max-width: 992px) {
@@ -791,88 +790,11 @@ section {
 
 
 /*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-
-.team .member {
-    margin-bottom: 20px;
-    overflow: hidden;
-    text-align: center;
-    border-radius: 5px;
-    background: #fff;
-    box-shadow: 0px 2px 15px rgba(65, 76, 100, 0.06);
-}
-
-.team .member .member-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.team .member .social {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 40px;
-    opacity: 0;
-    transition: ease-in-out 0.3s;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.85);
-}
-
-.team .member .social a {
-    transition: color 0.3s;
-    color: #414c64;
-    margin: 0 10px;
-    padding-top: 8px;
-    display: inline-block;
-}
-
-.team .member .social a:hover {
-    color: #ffc107;
-}
-
-.team .member .social i {
-    font-size: 18px;
-    margin: 0 2px;
-}
-
-.team .member .member-info {
-    padding: 25px 15px;
-}
-
-.team .member .member-info h4 {
-    font-weight: 700;
-    margin-bottom: 5px;
-    font-size: 18px;
-    color: #414c64;
-}
-
-.team .member .member-info span {
-    display: block;
-    font-size: 13px;
-    font-weight: 400;
-    color: #aaaaaa;
-}
-
-.team .member .member-info p {
-    font-style: italic;
-    font-size: 14px;
-    line-height: 26px;
-    color: #777777;
-}
-
-.team .member:hover .social {
-    opacity: 1;
-}
-
-
-/*--------------------------------------------------------------
 # Soluções
 --------------------------------------------------------------*/
 
-#servicos {
-    background: #082735;
+.servicos {
+    background: #fff;
 }
 
 #servicos h2 {
@@ -926,7 +848,7 @@ section {
 
 .servicos .box {
     padding: 20px;
-    background: #fff;
+    background: #082735;
     text-align: center;
     height: 400px;
     box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.12);
@@ -942,7 +864,7 @@ section {
     font-size: 16px;
     font-weight: 600;
     color: #777777;
-    background: #f8f8f8;
+    background: #105981;
 }
 
 .servicos p {
@@ -1297,7 +1219,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# float whatsapp
+# FLOAT WHATSAPP
 --------------------------------------------------------------*/
 
 .float {
@@ -1321,4 +1243,77 @@ section {
 .my-float {
     margin-top: 10px;
     font-size: 30px;
+}
+
+
+/*--------------------------------------------------------------
+# CARD
+--------------------------------------------------------------*/
+
+.card .fill-checkbox .fill-control-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+}
+
+@media (min-width: 992px) {
+    .card-styles {
+        margin-top: -130px;
+    }
+}
+
+#cards .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 23px -12px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 10px 10px 23px -12px rgba(0, 0, 0, 0.24);
+    box-shadow: 10px 10px 23px -12px rgba(0, 0, 0, 0.24);
+    height: 400px;
+}
+
+#cards .card .card-header {
+    border: none;
+    background: #343a40;
+    color: #fff;
+}
+
+#cards .card .card-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.04);
+    background: #fff;
+}
+
+#cards .icon-wrap {
+    position: relative;
+}
+
+#cards .icon-wrap .icon {
+    width: 60px;
+    height: 60px;
+}
+
+#cards .icon-wrap .icon span {
+    font-size: 20px;
+}
+
+.icon {
+    background-color: #082735;
+}
+
+#cards .icon-wrap .icon.card-icon {
+    border: 5px solid #2f8ebaad;
+}
+
+.card-btn {
+    background-color: #082735;
+    color: white;
+    border-radius: 15px;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+#cards {
+    width: auto;
 }
