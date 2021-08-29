@@ -49,10 +49,10 @@
 <body>
     <header id="header" class="fixed-top header-transparent">
         <div class="container d-flex align-items-center">
-            <a href="index.html" class="logo mr-auto"><img src="<?php echo base_url(); ?>public/assets/img/kronus.png" alt="Logo Kronus" class="img-fluid"></a>
+            <a href="index.html" class="logo mr-auto"><img src="<?php echo base_url(); ?>public/assets/img/white.png" alt="Logo Kronus" class="img-fluid"></a>
             <nav class="nav-menu d-none d-lg-block justify-content-center">
                 <ul>
-                    <li class="active"><a href="home">Início</a></li>
+                    <li><a href="home">Início</a></li>
                     <li><a href="sobre">Sobre</a></li>
                     <li class="drop-down"><a href="servicos">Serviços</a>
                         <ul>
@@ -67,7 +67,7 @@
                     <!--  <li><a href="#pricing">Preços</a></li>  -->
                     <li><a href="contato">Contato</a></li>
                     <li><a href="blog">Blog</a></li>
-                    <li><a href="https://cloud.kronustecnologia.com.br/" target="_blank" rel="noopener noreferrer">Área do Cliente</a></li>
+                    <li class="cta-header"><a href="servicos">Orçamento</a>
                 </ul>
             </nav>
         </div>

@@ -1,107 +1,107 @@
 <!-- ======= Home ======= -->
-<section id="hero" class="align-items-center justify-content-center">
+<section id="home" class="align-items-center justify-content-center">
   <div class="container my-auto">
-    <div class="row row-hero mx-auto">
-      <div class="col-12 col-lg-6 pt-4 pt-lg-0 my-auto">
+    <div class="row row-home mx-auto">
+      <div class="col-12 col-lg-6 pt-4 pt-lg-0">
         <div class="container position-relative text-left">
-          <h1>Inovação movida por <span style="color: #2b89bb;">resultados</span> </h1>
+          <h1>Inovação movida por resultados</span> </h1>
           <h2>Dê o próximo passo para o sucesso do seu projeto</h2>
-          <div class="btn-hero">
+          <div class="btn-home">
             <a href="#servicos" class="btn-get-started scrollto">Conhecer a Kronus</a>
           </div>
         </div>
       </div>
+      <div class="col-lg-6 justify-content-right div-img-home">
+        <img src="<?php echo base_url(); ?>public/assets/img/teste3.png" class="img-fluid img-home" alt="Imagem de inicio site Kronus">
+      </div>
     </div>
   </div>
 </section>
-
-<section class="servicos" style="width: 100%;">
-  <div class="container card-styles">
-    <div class="row slider" id="cards">
-      <div class="col-md-4">
-        <div class="card">
-          <div class="icon-wrap px-4 pt-4">
-            <div class="icon d-flex justify-content-center align-items-center card-icon rounded-circle">
-              <span class="ion-logo-ionic text-light"></span>
-            </div>
-          </div>
-          <div class="card-body pb-5 px-4">
-            <h5 class="card-title">Criação de Sites</h5>
-            <p class="card-text">
-              O digital é o futuro, aliás, é o nosso presente saia do convencional destaque-se da concorrência,
-              tenha um site feito para trazer clientes e credibilidade para sua empresa integralmente, com segurança e rapidez
-            </p>
-            <a href="#" class="btn card-btn">Saiba mais</a>
-          </div>
+<!-- ======= Values Section ======= -->
+<section id="values" class="values">
+  <div class="container" data-aos="fade-up">
+    <header class="section-header section-title">
+      <h2>Pronto para ser <span style="color: #105981;">destaque?</span></h2>
+      <p>Aqui vai alguns de nossos serviços!</p>
+    </header>
+    <div class="row mt-5">
+      <div class="col-lg-4 mt-4 mt-lg-0">
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+          <img src="<?php echo base_url(); ?>public/assets/img/foguete.svg" class="img-fluid" alt="">
+          <h3>Gestão de Redes Sociais</h3>
+          <p>Esteja nas redes sociais para gerar resultados, passando valor e se conectando com seus clientes, com nossas estratégias
+            por meio de inbound marketing.
+          </p>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="icon-wrap px-4 pt-4">
-            <div class="icon d-flex justify-content-center align-items-center card-icon rounded-circle">
-              <span class="ion-logo-ionic text-light"></span>
-            </div>
-          </div>
-          <div class="card-body pb-5 px-4">
-            <h5 class="card-title">E-commerce</h5>
-            <p class="card-text">
-              Aqui nós criamos uma loja online sob medida para sua empresa, focada em vender o seu produto seja ele digital ou físico,
-              dê a seus clientes uma experiência única, com um design intuitivo, focado em gerar venda.
-            </p>
-            <a href="#" class="btn card-btn">Saiba mais</a>
-          </div>
+      <div class="col-lg-4 mt-4 mt-lg-0">
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+          <img src="<?php echo base_url(); ?>public/assets/img/site.svg" class="img-fluid" alt="">
+          <h3 style="color: #E67E22;">Desenvolvimento de Sites e Sistemas</h3>
+          <p>
+            Tenha a sua presença online sólida com um site desenvolvido com a tecnologia mais avançada do mercado,
+            com segurança, otimização e velocidade!
+          </p>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="icon-wrap px-4 pt-4">
-            <div class="icon d-flex justify-content-center align-items-center card-icon rounded-circle">
-              <span class="ion-logo-ionic text-light"></span>
-            </div>
-          </div>
-          <div class="card-body pb-5 px-4">
-            <h5 class="card-title">Gestão de Redes Sociais</h5>
-            <p class="card-text">
-              Esteja nas redes sociais para gerar resultados para sua empresa,
-              passando valor e se conectando com seus clientes, por meio de estratégias de marketing e criação de conteúdo
-            </p>
-            <a href="#"  class="btn card-btn">Saiba mais</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="icon-wrap px-4 pt-4">
-            <div class="icon d-flex justify-content-center align-items-center card-icon rounded-circle">
-              <span class="ion-logo-ionic text-light"></span>
-            </div>
-          </div>
-          <div class="card-body pb-5 px-4">
-            <h5 class="card-title">Card title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            <a href="#" class="btn card-btn">Saiba mais</a>
-          </div>
+      <div class="col-lg-4 mt-4 mt-lg-0">
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+          <img src="<?php echo base_url(); ?>public/assets/img/mobile.svg" class="img-fluid" alt="">
+          <h3>Desenvolvimento mobile</h3>
+          <p>Quer elevar o seu negócio de patamar? Tendo um aplicativo para Android ou IOS, seja um projeto para sua empresa ou uma ideia brilhante
+            estamos aqui para tornar possível!
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section id="about-servicos" class="about-servicos">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <img src="<?php echo base_url(); ?>public/assets/img/about-bg.png" class="img-fluid" alt="">
+<!-- ======= Services about ======= -->
+<section id="services-about" class="services-about section-black">
+  <div class="container" data-aos="fade-up">
+    <div class="row no-gutters">
+      <div class="content col-xl-5 d-flex align-items-stretch">
+        <div class="content">
+          <div class="section-title">
+            <h3>Nossa expertise</h3>
+          </div>
+          <p>
+            Como o digital pode mudar o seu negócio? não é apenas estamos nele, estamos focados em te tornar presente,
+            com nossas soluções não será apenas um serviço e sim um ponto de partida para alcançar lugares inimaginaveis
+          </p>
+          <a href="#" class="services-about-btn"><span>Todos serviços</span> <i class="bx bx-chevron-right"></i></a>
+        </div>
       </div>
-      <div class="col-lg-6 pt-4 pt-lg-0">
-        <h3>Aqui seus objetivos também são nossos</h3>
-        <h4>
-          Nosso maior foco é fazer o seu negócio decolar, obtendo resultados em alta performance
-        </h4>
+      <div class="col-xl-7 d-flex align-items-stretch">
+        <div class="icon-boxes d-flex flex-column justify-content-center">
+          <div class="row">
+            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-receipt"></i>
+              <h4>Não é apenas um site!</h4>
+              <p>Estamos aqui para mudar o conceitos que as pessoas tem de um site, queremos trazer experiências, resultados e mudanças, focados em ajudar pessoas reais!</p>
+            </div>
+            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Tecnologia de acordo com seu negócio!</h4>
+              <p>Somos especialistas em diversas tecnologias, escolheremos a melhor e que mais se adequa a você, otimizando processos
 
-
+              </p>
+            </div>
+            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-images"></i>
+              <h4></h4>
+              <p>
+              </p>
+            </div>
+            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-shield"></i>
+              <h4></h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 </section>
 <!-- ======= Resumo ======= -->
@@ -109,7 +109,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <img src="<?php echo base_url(); ?>public/assets/img/resumebg.png" class="img-fluid" alt="">
+        <img src="<?php echo base_url(); ?>public/assets/img/globo.svg" class="img-fluid" alt="">
       </div>
       <div class="col-lg-6 pt-4 pt-lg-0 my-auto">
         <h3>Nós nascemos da necessidade de <span>destacar empresas</span> como a sua através da inovação!</h3>
@@ -120,31 +120,23 @@
           estar a sempre a frente no mercado, se você chegou até aqui <span>você pertence a esse pequeno grupo!</span>
         </p>
       </div>
-
     </div>
   </div>
 </section>
 <!-- ======= Fale conosco ======= -->
 <section id="cta" class="cta">
   <div class="container">
-
-    <div class="text-center">
-      <h3>Podemos sim tornar o seu objetivo alcançável</h3>
-      <h3>Mas estamos aqui para te fazer superá-lo!</h3>
-      <p></p>
-      <a class="cta-btn" href="#">Vamos decolar!</a>
+    <div class="row">
+      <div class="col-lg-6 pt-4 pt-lg-0 my-auto">
+        <h3>Podemos sim tornar o <span style="color: #E67E22;">seu objetivo</span> alcançável</h3>
+        <h3>Mas estamos aqui para te fazer <span style="color: #E67E22;">superá-lo!</span></h3>
+        <a class="cta-btn" href="#">Vamos decolar!</a>
+      </div>
+      <div class="col-lg-6">
+        <img src="<?php echo base_url(); ?>public/assets/img/s.svg" class="img-fluid" alt="">
+      </div>
     </div>
-  </div>
+  </div>s
 </section>
 <!-- ======= Resumo do blog ======= -->
-<section id="resumo-blog">
-  <div class="container text-center">
-    <h3>Esteja a frente sempre</h3>
-    <p>A Kronus ajuda a sua empresa a chegar no topo. </p>
-    <p>
-      Se você chegou até aqui, é por que está cansado de estar no estafo estacionário, com seu negócio parado
-
-    </p>
-  </div>
-</section>
 </main>
