@@ -59,7 +59,7 @@
                             <li><a href="websites">Criação de Sites</a></li>
                             <li><a href="grs">Gestão de Redes Sociais</a></li>
                             <li><a href="ecommerce">E-commerce</a></li>
-                            <li><a href="criacaomarca">Criaçao de Marca</a></li>
+                            <li><a href="adwords">Google ADS</a></li>
                         </ul>
                     </li>
                     <!--  <li><a href="#portfolio">Projetos</a></li>  -->
@@ -67,7 +67,6 @@
                     <!--  <li><a href="#pricing">Preços</a></li>  -->
                     <li><a href="contato">Contato</a></li>
                     <li><a href="blog">Blog</a></li>
-                    <li class="cta-header"><a href="servicos">Orçamento</a>
                 </ul>
             </nav>
         </div>

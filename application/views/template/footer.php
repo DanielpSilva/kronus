@@ -14,7 +14,7 @@
           <ul>
             <li><i class="bx bx-chevron-right"></i> <a href="home">ínicio</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="sobre">Sobre-nós</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#solucoes">Serviços</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="servicos">Serviços</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="termos">Termos de Serviços</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="privacidade">Política de Privacidade</a></li>
           </ul>
@@ -23,19 +23,27 @@
         <div class="col-lg-2 col-md-6 col-6 footer-links">
           <h4>Outros Serviços</h4>
           <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Consultoria</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Project Management</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Design</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="web-design">Web Design</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="consultoria">Consultoria</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="project-management">Project Management</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="marketing">Marketing</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="design">Design</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-4 col-md-6 footer-newsletter">
-          <h4>Join Our Newsletter</h4>
-          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-          <form action="" method="post">
-            <input type="email" name="email"><input type="submit" value="Subscribe">
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Vem conversar com a gente!</h4>
+          <p>Vem saber como a Kronus pode te ajudar hoje!</p>
+          <form action="https://formsubmit.co/contato@kronustecnologia.com.br" method="POST">
+            <input class="form-control" placeholder="Seu nome" type="text" name="name" id="name" required />
+            <input class="form-control" placeholder="Seu telefone" name="phone" id="phone" required />
+            <input class="form-control" placeholder="Seu e-mail" type="email" name="email" id="email" required />
+            <textarea class="form-control" placeholder="Mensagem" name="mensage" id="mensage" required></textarea>
+            <input type="hidden" name="_ subject" value="Contato site - FGTS" />
+            <input type="hidden" name="_ template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://kronustecnologia.com.br" />
+            <button class="btn-form-control btn btn-primary" type="submit">Enviar mensagem</button>
           </form>
         </div>
 

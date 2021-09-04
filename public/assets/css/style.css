@@ -122,8 +122,13 @@ h6 {
     font-weight: 600;
     transition: 0.3s;
     color: #fff;
-    background-color: #E67E22;
-    border-radius: 20px;
+    background-color: #fed531c7;
+    border-radius: 10px;
+}
+
+.cta-header a:hover {
+    background-color: rgba(255, 255, 255, 0.33);
+    color: black;
 }
 
 
@@ -157,7 +162,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-    color: rgb(95, 95, 95);
+    color: #FED531;
 }
 
 .nav-menu .drop-down ul {
@@ -196,7 +201,7 @@ h6 {
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active>a,
 .nav-menu .drop-down ul li:hover>a {
-    color: #E67E22;
+    color: #FED531;
 }
 
 .nav-menu .drop-down>a:after {
@@ -825,6 +830,25 @@ section {
 
 
 /*--------------------------------------------------------------
+# About Kronus
+--------------------------------------------------------------*/
+
+.about-kronus {
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background: #fff;
+    width: 100vw;
+}
+
+
+/*--------------------------------------------------------------
+# About Kronus
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 
@@ -855,15 +879,15 @@ section {
     border-radius: 25px;
     transition: 0.5s;
     margin-top: 10px;
-    border: 2px solid #E67E22;
-    background-color: #E67E22;
+    border: none;
+    background-color: #105981;
     color: #fff;
 }
 
 .cta .cta-btn:hover {
-    background: #fff;
-    color: #E67E22;
-    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.741);
+    color: #105981;
+    border: none;
 }
 
 
@@ -1105,142 +1129,37 @@ section {
 
 
 /*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+# FORM API
+-----------+---------------------------------------------------*/
 
-.contact .info-box {
-    color: #444444;
-    text-align: center;
-    box-shadow: 0 0 20px rgba(65, 76, 100, 0.05);
-    padding: 20px 0 30px 0;
-}
-
-.contact .info-box i {
-    font-size: 32px;
-    color: #ffc107;
-    border-radius: 50%;
-    padding: 8px;
-    border: 2px dotted #ffeeba;
-}
-
-.contact .info-box h3 {
-    font-size: 20px;
-    color: #777777;
-    font-weight: 700;
-    margin: 10px 0;
-}
-
-.contact .info-box p {
+.form-control {
     padding: 0;
-    line-height: 24px;
-    font-size: 14px;
-    margin-bottom: 0;
+    margin-top: 5px;
+    padding-left: 15px;
+    background-color: rgba(204, 204, 204, 0.138);
+    border: none;
+    border-radius: 25px;
 }
 
-.contact .php-email-form {
-    box-shadow: 0 0 20px rgba(65, 76, 100, 0.05);
-    padding: 30px;
+.btn-form-control {
+    background-color: #FED531;
+    color: #082735;
+    border: none;
+    width: 100%;
+    margin-top: 5px;
+    font-family: Helvetica;
+    font-weight: bold;
+    border-radius: 25px;
 }
 
-.contact .php-email-form .validate {
-    display: none;
-    color: red;
-    margin: 0 0 15px 0;
-    font-weight: 400;
-    font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-    display: none;
-    color: #fff;
-    background: #ed3c0d;
-    text-align: left;
-    padding: 15px;
-    font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-    margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-    display: none;
-    color: #fff;
-    background: #18d26e;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-    display: none;
-    background: #fff;
-    text-align: center;
-    padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
-    border-top-color: #eee;
-    -webkit-animation: animate-loading 1s linear infinite;
-    animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-    border-radius: 4px;
-    box-shadow: none;
-    font-size: 14px;
-}
-
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
-    border-color: #ffc107;
-}
-
-.contact .php-email-form input {
-    padding: 20px 15px;
-}
-
-.contact .php-email-form textarea {
-    padding: 12px 15px;
-}
-
-.contact .php-email-form button[type="submit"] {
-    background: #ffc107;
-    border: 0;
-    padding: 10px 30px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 50px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-    background: #ffce3a;
-}
-
-@-webkit-keyframes animate-loading {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes animate-loading {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+.btn-form-control:hover {
+    background-color: rgba(204, 204, 204, 0.138);
+    color: rgba(255, 255, 255, 0.515);
+    border: none;
+    width: 100%;
+    margin-top: 5px;
+    font-family: Helvetica;
+    font-weight: bold;
 }
 
 
@@ -1307,7 +1226,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #082735;
+    color: #FED531;
     font-size: 18px;
     line-height: 1;
 }
@@ -1331,7 +1250,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
-    color: #105981;
+    color: #FED531;
 }
 
 #footer .credits {
