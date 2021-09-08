@@ -5,7 +5,26 @@
 
     <title>Kronus Tecnologia - Desenvolvimento de Sites, Aplicações Mobile e Sistemas</title>
     <meta name="description" content="Localizada em Caraguatatuba - SP, a Kronus Tecnologia é especializada em desenvolvimento de sites e sistemas. Encontramos a solução ideal o seu negócio buscando soluções em marketing digital ideais para aumentar as suas vendas.">
-    <meta content="" name="keywords">
+    <meta content="Desenvolvimento de sites, Sistemas, criação de sites, criação de aplicativo, tecnologia, Kronus Tecnologia, Kronus, Empresa de Tecnologia, Inovação" name="keywords">
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KDGKPFC');
+    </script>
+    <!-- End Google Tag Manager -->
 
     <!-- Favicons -->
     <meta charset="utf-8">
@@ -47,12 +66,16 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDGKPFC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header id="header" class="fixed-top header-transparent">
         <div class="container d-flex align-items-center">
             <a href="index.html" class="logo mr-auto"><img src="<?php echo base_url(); ?>public/assets/img/white.png" alt="Logo Kronus" class="img-fluid"></a>
             <nav class="nav-menu d-none d-lg-block justify-content-center">
                 <ul>
-                    <li><a href="home">Início</a></li>
+                    <li><a href="home">Home</a></li>
+                    <!--
                     <li><a href="sobre">Sobre</a></li>
                     <li class="drop-down"><a href="servicos">Serviços</a>
                         <ul>
@@ -62,11 +85,11 @@
                             <li><a href="adwords">Google ADS</a></li>
                         </ul>
                     </li>
-                    <!--  <li><a href="#portfolio">Projetos</a></li>  -->
-                    <!--  <li><a href="#team">Time</a></li> -->
-                    <!--  <li><a href="#pricing">Preços</a></li>  -->
+                     <li><a href="#portfolio">Projetos</a></li> 
+                      <li><a href="#team">Time</a></li> -->
+                    <!--  <li><a href="#pricing">Preços</a></li> 
                     <li><a href="contato">Contato</a></li>
-                    <li><a href="blog">Blog</a></li>
+                    <li><a href="blog">Blog</a></li> -->
                 </ul>
             </nav>
         </div>

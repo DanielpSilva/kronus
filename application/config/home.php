@@ -2,15 +2,17 @@
 <section id="home" class="align-items-center justify-content-center">
   <div class="container my-auto">
     <div class="row row-home mx-auto">
-      <div class="col-12 col-lg-6 pt-4 pt-lg-0 text-left">
-          <h1>Inovação movida por <span style="color: #105981;">resultados</span></h1>
+      <div class="col-12 col-lg-6 pt-4 pt-lg-0">
+        <div class="container position-relative text-left">
+          <h1>Inovação movida por <span style="color: #105981;">resultados</span> </h1>
           <h2>Dê o próximo passo para o sucesso do seu projeto</h2>
           <div class="btn-home">
             <a href="#values" class="btn-get-started scrollto">Conhecer a Kronus</a>
           </div>
+        </div>
       </div>
       <div class="col-lg-6 justify-content-right div-img-home">
-        <img src="<?php echo base_url(); ?>public/assets/img/home.png" class="img-fluid img-home" alt="Imagem de inicio site Kronus">
+        <img src="<?php echo base_url(); ?>public/assets/img/hero.png" class="img-fluid img-home" alt="Imagem de inicio site Kronus">
       </div>
     </div>
   </div>
